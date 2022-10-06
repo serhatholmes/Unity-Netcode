@@ -107,6 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7240197226717550042}
   - component: {fileID: 1662403832278978775}
+  - component: {fileID: -203312354977970286}
   m_Layer: 0
   m_Name: SpawnedObject
   m_TagString: Untagged
@@ -146,3 +147,16 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 1
   AutoObjectParentSync: 1
+--- !u!135 &-203312354977970286
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7240197226717550043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5039708
+  m_Center: {x: 0, y: 0.38084465, z: 0}
